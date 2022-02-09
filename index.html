@@ -27,16 +27,28 @@
         </nav>
         
         <nav id="navbar2">
-            <div class="topnav2">
+            <!-- <div class="topnav2">
                 <a class="active" href="#home">Sign In</a>
-                <!-- <a href="#about">Sign Up</a> -->
                 <a href="#contact">Sign Up</a>
                 <div class="search-container">
                   <form  action="/action_page.php">
                     <input  type="text" placeholder="Search Packages" name="search">
                     <button type="submit">Search</button>
                   </form>
-            </div>
+            </div> -->
+            <div class="search-bar-box">
+                <svg class="logo" viewbox="0 0 780 250">
+                    <path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0h380z M0,200h100V50h50v150h50V0H0V200z"></path>
+                </svg>
+                <div class="search-bar">
+                    <!-- <i class="fa fa-search search-icon" aria-hidden="true"></i> -->
+                    <input type="text" name="search" id="search" class="search" placeholder="Search packages">
+                    <button class="btn">Search</button>
+                </div>
+                <div class="sign-box">
+                    <button class="sign-up btn1">Sign Up</button>
+                    <button class="sign-in btn1">Sign In</button>
+                </div>
             </div>
         </nav>
     </section>
@@ -54,6 +66,7 @@
     </section>
     <section>
         <div class="sect3">
+            <img alt="" role="presentation" src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png" srcset="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png, https://static.npmjs.com/attachments/ck3uwed1cmso79y74pjugy10f-gak-2x.png 2x, https://static.npmjs.com/attachments/ck3uweeyt72yk887420va22p9-gak-3x.png 3x" class="db center mb4" class="center">
             <div class="container3">Bring the best of open source to you, your team, and your company</div>
             <div class="container4">Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and with more than one million packages, the largest software registry in the world. Our other tools and services take the Registry, and the work you do around it, to the next level.</div>
         </div>
@@ -71,8 +84,13 @@
     </section>
     <footer>
         <div class="footer">
-            <div class="gitlogo1">
-                <i class="fa fa-github" style="font-size:36px"></i>
+            <div class="bothlogos">
+                <div class="gitlogo1">
+                    <i class="fa fa-github" style="font-size:36px"></i>
+                </div>
+                <div class="npmlogo">
+                    <img src="npm-logo.png" alt="bb">
+                </div>
             </div>
             <div class="footer1">
                 <div class="footeritem1">Support</div>
