@@ -146,6 +146,7 @@
 }
 /* footer  */
 .footer{
+   
     height: 520px;
     /* padding: 3px 140px; */
     padding: 3px 140px;
@@ -162,6 +163,9 @@
     display: flex;
     flex-direction: row;
     /* padding: 30px; */
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 2px;
 }
 .npmlogo{
     padding-left: 20px;
@@ -187,3 +191,11 @@
 .footeritem4{
     font-size: 10px;
 }
+.footer::after{
+    content: "";
+    display: block;
+    height: 10px;
+    width: 00%;
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+    box-sizing: border-box;
+    }
